@@ -1,3 +1,5 @@
+#@author: Hoda Allahbakhshi
+#@references: Allahbakhshi, H., Conrow, L., Naimi, B., & Weibel, R. (2020). Using accelerometer and GPS data for real-life physical activity type detection. Sensors, 20(3), 588.
 
 # Extract accelerometer features
 
@@ -18,7 +20,6 @@ gc()
 # To combine the GPS and accelerometer data, they had to be time-matched together. 
 #I matched the GPS timestamps with the first and last timestamps of accelerometer segments 
 #rounded down to the nearest second to combine the GPS data with the accelerometer data
-
 
 
 for (i in 1:Nuser){ 
